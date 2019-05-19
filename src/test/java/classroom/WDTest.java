@@ -13,7 +13,8 @@ public class WDTest {
 	RemoteWebDriver driver;
 	public void openBrowser(String URL) {
 	//Invoke the browser
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().version("74.0.3729.6").setup();
+		//WebDriverManager.version().chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get(URL);
 		driver.manage().window().maximize();

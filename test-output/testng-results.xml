@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19302" started-at="2019-05-18T05:03:09Z" finished-at="2019-05-18T05:03:28Z">
+  <suite name="Default suite" duration-ms="13140" started-at="2019-05-19T04:49:51Z" finished-at="2019-05-19T04:50:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19302" started-at="2019-05-18T05:03:09Z" finished-at="2019-05-18T05:03:28Z">
-      <class name="classroom.IphoneTestCase">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:classroom.IphoneTestCase@42dafa95]" name="firstTest" duration-ms="19278" started-at="2019-05-18T05:03:09Z" finished-at="2019-05-18T05:03:28Z">
+    <test name="Default test" duration-ms="13140" started-at="2019-05-19T04:49:51Z" finished-at="2019-05-19T04:50:04Z">
+      <class name="classroom.WebInteractions">
+        <test-method status="PASS" signature="webInteractions()[pri:0, instance:classroom.WebInteractions@42dafa95]" name="webInteractions" duration-ms="13124" started-at="2019-05-19T04:49:51Z" finished-at="2019-05-19T04:50:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- classroom.IphoneTestCase -->
+        </test-method> <!-- webInteractions -->
+      </class> <!-- classroom.WebInteractions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
