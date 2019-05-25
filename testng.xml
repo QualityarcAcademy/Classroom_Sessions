@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="servicenow.CreateIncident" />
+			<class name="servicenow.ResolveIncident" />
+			<class name="servicenow.DeleteIncident" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="22.115" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Local User\eclipse-workspace\training.class"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Local User\eclipse-workspace\training.class"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LOCALU~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\Local User\Documents\Software Binaries\Allure\allure-commandline-2.8.1\allure-2.8.1\bin;C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\nodejs\;C:\AndroidSDK\tools;C:\AndroidSDK\platform-tools;C:\AndroidSDK\build-tools;C:\Users\Local User\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Local User\AppData\Local\Programs\Python\Python37-32\;C:\Users\Local User\AppData\Local\Microsoft\WindowsApps;C:\Users\Local User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Local User\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.3\bin;."/>
+    <property name="maven.conf" value="C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Local User"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Local User"/>
+    <property name="java.class.path" value="C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Local User\Documents\Software Binaries\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="classroom.IphoneTestCase" name="firstTest" time="22.115">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at classroom.IphoneTestCase.firstTest(IphoneTestCase.java:40)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@123772c4
+21
+1. Apple 12W USB Power Adapter (for iPhone, iPad)
+2. Rechargeable Active Stylus Digital Pen with Adjustable Fine Tip for Accurate Writing/Drawing on iPhone/iPad/Samsung/Surface/Android Touchscreen, Smartphones, Tablets, Notebooks(Black)
+3. Apple iPhone 6, GSM Unlocked, 64GB - Space Gray (Renewed)
+4. Apple iPhone 7 Plus (32GB) - Black - [works exclusively with Simple Mobile]
+5. Apple iPhone X (64GB) - Silver - [works exclusively with Simple Mobile]
+6. Apple iPhone 6S, GSM Unlocked, 64GB - Rose Gold (Renewed)
+7. Apple iPhone 6 Plus GSM Unlocked Cellphone, 16GB (Space Gray)
+8. Apple iPhone 7 (32GB) - Gold - [works exclusively with Simple Mobile]
+9. Apple iPhone 6, GSM Unlocked, 16GB - Space Gray (Renewed)
+10. Apple iPhone 7 Unlocked (Fully Only) 128GB Smartphone, Rose Gold (Renewed)
+11. Apple iPhone 6s Plus (32GB) - Rose Gold [works exclusively with Simple Mobile Prepaid]
+12. Apple iPhone XS Max (64GB) - Gold - [works exclusively with Simple Mobile]
+13. Apple iPhone XR (64GB) - Red - [works exclusively with Simple Mobile]
+14. Apple iPhone 6S (32GB) - Space Gray - [works exclusively with Simple Mobile]
+15. Apple iPhone 6 Plus, GSM Unlocked, 16GB - Silver (Renewed)
+16. Apple iPhone 6, AT&amp;T, 16GB - Gold (Renewed)
+17. Apple iPhone 7, GSM Unlocked, 32GB - Rose Gold (Renewed)
+18. Apple iPhone 6S, GSM Unlocked, 16GB - Rose Gold (Renewed)
+19. PITAKA Slim Case Compatible with iPhone X 5.8&quot;, MagCase Aramid Fiber [Real Body Armor Material] Phone Case,Minimalist Strongest Durable Snugly Fit Snap-on Case - Black/Grey(Twill)
+20. PITAKA Slim Case Compatible with iPhone XR 6.1&quot;, MagCase Aramid Fiber [Real Body Armor Material] Phone Case,Minimalist Strongest Durable Snugly Fit Snap-on Case - Black/Grey(Twill)
+21. Tell us how we can improve
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 24, 2019 7:09:34 AM java.util.prefs.WindowsPreferences &lt;init&gt;
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 34458
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 24, 2019 7:09:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>
