@@ -19,6 +19,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 
+import helper.ReadExcel;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WDTest {
@@ -101,6 +102,15 @@ public class WDTest {
 		}
 		
 		return IncidentNum;
+		
+	}
+	
+	//TestNG dataprovider
+	
+	@DataProvider(name="ExcelData")
+	public Object[][] excelData() {
+		String[][] testNGData = ReadExcel.readExcelData("TestData");
+		return testNGData;
 		
 	}
 

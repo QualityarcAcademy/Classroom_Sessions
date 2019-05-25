@@ -5,7 +5,7 @@
     <classes>
       <class name="servicenow.CreateIncident">
         <methods>
-          <include name="createNewIncident"/>
+          <include name="createNewIncident" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- servicenow.CreateIncident -->
     </classes>
