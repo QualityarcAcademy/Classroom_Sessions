@@ -14,8 +14,8 @@ import helper.ReadExcel;
 
 public class CreateIncident extends WDTest{
 
-	@Test(dataProvider="ExcelData")
-	public void createNewIncident(String username, String password, String SearchItem) {
+	@Test(groups= {"Smoke", "Regression", "Functional"})
+	public void createNewIncident() {
 		/*
 		 * This test case creates a new incident
 		 * @ Data - User credential 
@@ -32,9 +32,9 @@ public class CreateIncident extends WDTest{
 		
 		//Login
 		driver.findElement(By.id("user_name")).clear();
-		driver.findElement(By.id("user_name")).sendKeys(username);
+		driver.findElement(By.id("user_name")).sendKeys("admin");
 		driver.findElement(By.id("user_password")).clear();
-		driver.findElement(By.id("user_password")).sendKeys(password);
+		driver.findElement(By.id("user_password")).sendKeys("Qarc@2019");
 		driver.findElement(By.id("sysverb_login")).click();
 
 		//Verify login is successful
@@ -47,7 +47,7 @@ public class CreateIncident extends WDTest{
 
 		//Search the keyword 'incident'
 		driver.findElement(By.id("filter")).click();
-		driver.findElement(By.id("filter")).sendKeys(SearchItem);
+		driver.findElement(By.id("filter")).sendKeys("Incident");
 		driver.findElement(By.linkText("Create New")).click();
 
 		//Switch to frame

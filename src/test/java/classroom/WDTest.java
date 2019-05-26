@@ -60,7 +60,11 @@ public class WDTest {
 
 	public void selectByVisibleOption(WebElement dropdown, String visibleText) {
 		Select dp = new Select(dropdown);
-		dp.selectByVisibleText(visibleText);
+		try {
+			dp.selectByVisibleText(visibleText);
+		} catch (NoSuchElementException e) {
+			System.out.println("The text could not be found "+visibleText);
+		}
 	}
 
 

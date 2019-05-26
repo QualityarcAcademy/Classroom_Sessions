@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import classroom.WDTest;
 
 public class DeleteIncident extends WDTest {
-	@Test()
+	@Test(groups= {"Regression"})
 	public void deleteIncident() {
 		/*
 		 * This test case resolves an incident

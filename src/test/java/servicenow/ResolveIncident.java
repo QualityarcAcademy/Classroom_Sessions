@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import classroom.WDTest;
 
 public class ResolveIncident extends WDTest {
-	@Test()
+	@Test(groups= {"Smoke"})
 	public void resolveIncident() {
 		/*
 		 * This test case resolves an incident
